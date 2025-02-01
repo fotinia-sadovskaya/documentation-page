@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Навігаційна панель -->
+  <nav id="navbar">
+    <header>JavaScript Basics</header>
+    <a href="#Introduction_to_JavaScript" class="nav-link">Introduction to JavaScript</a>
+    <a href="#Variables_and_Data_Types" class="nav-link">Variables and Data Types</a>
+    <a href="#Functions_in_JavaScript" class="nav-link">Functions in JavaScript</a>
+    <a href="#Loops_and_Iterations" class="nav-link">Loops and Iterations</a>
+    <a href="#DOM_Manipulation" class="nav-link">DOM Manipulation</a>
+  </nav>
+
+  <!-- Основний контент -->
+  <main id="main-doc">
+    <!-- Вступ -->
+    <section id="Introduction_to_JavaScript" class="main-section">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile programming language used for web development.</p>
+      <p>It allows developers to add interactivity to websites.</p>
+      <p>JavaScript can be used for both frontend and backend development.</p>
+      <p>It is an essential part of modern web applications.</p>
+      <p>Browsers have built-in JavaScript engines to execute JS code.</p>
+      <code>console.log("Hello, JavaScript!");</code>
+    </section>
+
+    <!-- Змінні та типи даних -->
+    <section id="Variables_and_Data_Types" class="main-section">
+      <header>Variables and Data Types</header>
+      <p>JavaScript has three main ways to declare variables: <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+      <p>There are different data types in JavaScript:</p>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Object</li>
+        <li>Array</li>
+        <li>Undefined</li>
+        <li>Null</li>
+      </ul>
+      <code>let age = 25;</code>
+    </section>
+
+    <!-- Функції -->
+    <section id="Functions_in_JavaScript" class="main-section">
+      <header>Functions in JavaScript</header>
+      <p>Functions allow code reuse and modularization.</p>
+      <p>A function can be defined using the <code>function</code> keyword or arrow syntax.</p>
+      <p>Functions can take parameters and return values.</p>
+      <code>function greet(name) { return "Hello, " + name; }</code>
+      <p>JavaScript also supports anonymous and callback functions.</p>
+    </section>
+
+    <!-- Цикли -->
+    <section id="Loops_and_Iterations" class="main-section">
+      <header>Loops and Iterations</header>
+      <p>Loops help in executing repetitive tasks efficiently.</p>
+      <p>JavaScript supports several types of loops:</p>
+      <ul>
+        <li><code>for</code> loop</li>
+        <li><code>while</code> loop</li>
+        <li><code>do-while</code> loop</li>
+        <li><code>forEach</code> method (for arrays)</li>
+      </ul>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+    </section>
+
+    <!-- Маніпуляція DOM -->
+    <section id="DOM_Manipulation" class="main-section">
+      <header>DOM Manipulation</header>
+      <p>The Document Object Model (DOM) allows interaction with HTML elements.</p>
+      <p>Common DOM methods:</p>
+      <ul>
+        <li><code>document.getElementById()</code></li>
+        <li><code>document.querySelector()</code></li>
+        <li><code>document.createElement()</code></li>
+        <li><code>element.appendChild()</code></li>
+        <li><code>element.innerHTML</code></li>
+      </ul>
+      <code>document.getElementById("title").textContent = "New Title";</code>
+    </section>
+
+  </main>
+
+</body>
+</html>
